@@ -2,6 +2,24 @@
 
 A lightweight Go client for the TrustSignal SMS API.
 
+- [TrustSignal Go Library](#trustsignal-go-library)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Initialization](#initialization)
+    - [Sending SMS](#sending-sms)
+      - [Bulk Send](#bulk-send)
+      - [Single Send](#single-send)
+    - [Headers](#headers)
+      - [Get Header](#get-header)
+      - [Create Header](#create-header)
+    - [Templates](#templates)
+      - [Get Templates](#get-templates)
+      - [Create Template](#create-template)
+    - [Sub-Accounts](#sub-accounts)
+    - [Webhook](#webhook)
+  - [Logging](#logging)
+
+
 ## Installation
 
 ```bash
