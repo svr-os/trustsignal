@@ -1,8 +1,13 @@
 # TrustSignal Go Library
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
 A lightweight Go client for the TrustSignal SMS API.
 
+## Table of Contents
+
 - [TrustSignal Go Library](#trustsignal-go-library)
+  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
     - [Initialization](#initialization)
@@ -18,6 +23,7 @@ A lightweight Go client for the TrustSignal SMS API.
     - [Sub-Accounts](#sub-accounts)
     - [Webhook](#webhook)
   - [Logging](#logging)
+  - [License](#license)
 
 
 ## Installation
@@ -181,4 +187,7 @@ func (l *CustomLogger) Error(msg string, keysAndValues ...interface{}) {
 client := api.NewClient(api.WithLogger(&CustomLogger{}))
 ```
 
----
+
+## License
+
+This project is licensed under the ISC License.
