@@ -1,0 +1,77 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+# Go build output
+bin/
+
+# Dependency directories (remove the comment below if you want to check in your vendor directory)
+# vendor/
+
+# GoLand IDE files
+.idea/
+
+# VS Code files
+.vscode/
+
+# Mac OS metadata
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Go modules
+go.sum
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated
+*.DS_Store
+*.DStore
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.old
+*.sik
+
+# Editor backup, swap, autosave and lock files
+*~ 
+*.sw[a-p]
+*.bak
+*.tmp
+*.sw[op]
+*.save
